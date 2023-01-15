@@ -1,6 +1,401 @@
 *{
     margin:0;
 }
+
+@font-face {
+    font-family: 'one_piece';
+    src: url('assets/fontes/onepiecefont.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Cambo';
+    src: url('assets/fontes/Cambo-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+#Titulo{
+    text-decoration-line: none;
+    font-family:'one_piece';
+    font-size: 50px ;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    border-radius:20px;
+    text-decoration: none;
+
+}
+body{
+    align-items:center;
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    background-repeat: no-repeat; 
+    background-size: 100vw 100vh;
+    background-image: url(assets/image/background/fundo_desktop.jpg);
+    background-attachment: fixed;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}   
+body div{
+    flex-direction: column;
+    align-items:center;
+    display:flex;
+    flex:1;
+    backdrop-filter:blur(5px);
+    background-size: 100vw 100vh;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    background-size: 140vh;
+    overflow-y: scroll;
+    width:100vw;
+    height:100vh;
+    gap:8em;
+    justify-content:center;
+ 
+ }
+ #coluna1{
+    margin-top:290vh;
+    margin-bottom: 20vh;
+    gap:4em 8em;
+    margin-left:1vw;
+ }
+ #coluna2{
+    margin-top:290vh;
+    margin-bottom: 20vh;
+    gap:4em 8em;
+    margin-left:1vw;
+ }
+ #coluna3{
+    justify-content: space-evenly;
+    margin-top:220vh;
+    margin-bottom: 20vh;
+    gap:4em 4em;
+    margin-left:1vw;
+ }
+ main div a div{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+    height:60vh;
+    background-size: 20vw 60vh;
+    cursor:pointer;
+    background-repeat: no-repeat; 
+    background-image: url(assets/image/cartaz.png);
+ }
+ main div a div:hover{
+    zoom:115%;
+    border-color:black;
+    border-style:ridge;
+    border-width:5px;
+   }
+   main div a div img{
+    position: fixed;
+    margin-top: 12.7vh;
+    width: 17vw;
+    height:25.5vh;
+    border-color:rgb(86, 45, 45);
+    border-style:ridge;
+    border-width:3px;
+   }
+   main div a{
+    text-decoration: none;
+   }
+   .nome{
+    position:fixed;
+    margin-top: 7.8em;
+    font-size: 40px ;
+    font-family:'Cambo';
+    text-decoration-line: none;
+    font-weight: bolder;
+    color: rgb(86, 45, 45);
+   }
+   .valor{
+    margin-top: 11.9em;
+    position: fixed;
+    font-family:'Cambo';
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(86, 45, 45);
+    margin-bottom: 6vh;
+    margin-right: 0.5vw;
+   }
+   
+
+
+
+   @media (max-width:780px)  {
+    @font-face {
+        font-family: 'one_piece';
+        src: url('assets/fontes/onepiecefont.ttf') format('truetype');
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Cambo';
+        src: url('assets/fontes/Cambo-Regular.ttf') format('truetype');
+        font-weight: normal;
+    }
+    #Titulo{
+        text-decoration-line: none;
+        font-family:'one_piece';
+        font-size: 40px ;
+        font-weight: 700px;
+        color: rgba(0, 0, 0, 0.767);
+        padding: 10px;
+        margin-top:2vh;
+        margin-bottom:2vh;
+        border-radius:20px;
+        text-decoration: none;
+    
+    }
+    body{
+        align-items:center;
+        display:flex;
+        flex:1;
+        flex-direction: column;
+        background-repeat: no-repeat; 
+        background-size: 100vw 100vh;
+        background-image: url(assets/image/background/fundo_celular.jpg);
+        background-attachment: fixed;
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }   
+    body div{
+        flex-direction: column;
+        align-items:center;
+        display:flex;
+        flex:1;
+        backdrop-filter:blur(5px);
+        background-size: 100vw 100vh;
+    }
+    
+    main{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        background-size: 140vh;
+        overflow-y: scroll;
+        width:100vw;
+        height:100vh;
+        gap:8em;
+        justify-content:center;
+     
+     }
+     #coluna1{
+        display: flex;
+        flex-direction: column;
+        margin-top:750vh;
+        margin-bottom: 0vh;
+        gap:4em 8em;
+        margin-left:0vw;
+     }
+     #coluna2{
+        display: flex;
+        flex-direction: column;
+        margin-top:0.5vh;
+        margin-bottom: 0vh;
+        gap:4em 8em;
+        margin-left:1vw;
+     }
+     #coluna3{
+        display: flex;
+        flex-direction: column;
+        margin-top:0.5vh;
+        margin-bottom: 20vh;
+        gap:4em 4em;
+        margin-left:0.5vw;
+     }
+     main div a div{
+        display: flex;
+        flex-direction: column;
+        width:50vw;
+        height:50vh;
+        background-size: 50vw 50vh;
+        cursor:pointer;
+        background-repeat: no-repeat; 
+        background-image: url(assets/image/cartaz.png);
+     }
+     main div a div:hover{
+        zoom:115%;
+        border-color:black;
+        border-style:ridge;
+        border-width:5px;
+       }
+       main div a div img{
+        position: fixed;
+        margin-top: 10.5vh;
+        width: 41.9vw;
+        height:21.0vh;
+        border-color:rgb(86, 45, 45);
+        border-style:ridge;
+        border-width:3px;
+       }
+       main div a{
+        text-decoration: none;
+       }
+       .nome{
+        margin-top: 7.5em;
+        font-size: 2.3em ;
+        margin-left:1.5em;
+        margin-right:1.5em ;
+        font-family:'Cambo';
+        text-decoration-line: none;
+        font-weight: bolder;
+        color: rgb(86, 45, 45);
+       }
+       .valor{
+        margin-top: 11.9em;
+        font-family:'Cambo';
+        font-size: 1.7em;
+        font-weight: bolder;
+        color: rgb(86, 45, 45);
+        margin-bottom: 6vh;
+        margin-right: 0.5vw;
+       }
+}
+
+
+
+@media (max-width:580px)  {
+    @font-face {
+        font-family: 'one_piece';
+        src: url('assets/fontes/onepiecefont.ttf') format('truetype');
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Cambo';
+        src: url('assets/fontes/Cambo-Regular.ttf') format('truetype');
+        font-weight: normal;
+    }
+    #Titulo{
+        text-decoration-line: none;
+        font-family:'one_piece';
+        font-size: 35px ;
+        font-weight: 700px;
+        color: rgba(0, 0, 0, 0.767);
+        padding: 10px;
+        margin-top:2vh;
+        margin-bottom:2vh;
+        border-radius:20px;
+        text-decoration: none;
+    
+    }
+    body{
+        align-items:center;
+        display:flex;
+        flex:1;
+        flex-direction: column;
+        background-repeat: no-repeat; 
+        background-size: 100vw 100vh;
+        background-image: url(assets/image/background/fundo_celular.jpg);
+        background-attachment: fixed;
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }   
+    body div{
+        flex-direction: column;
+        align-items:center;
+        display:flex;
+        flex:1;
+        backdrop-filter:blur(5px);
+        background-size: 100vw 100vh;
+    }
+    
+    main{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        background-size: 140vh;
+        overflow-y: scroll;
+        width:100vw;
+        height:100vh;
+        gap:8em;
+        justify-content:center;
+     
+     }
+     #coluna1{
+        display: flex;
+        flex-direction: column;
+        margin-top:750vh;
+        margin-bottom: 0vh;
+        gap:4em 8em;
+        margin-left:0.5vw;
+     }
+     #coluna2{
+        display: flex;
+        flex-direction: column;
+        margin-top:0.5vh;
+        margin-bottom: 0vh;
+        gap:4em 8em;
+        margin-left:1vw;
+     }
+     #coluna3{
+        display: flex;
+        flex-direction: column;
+        margin-top:0.5vh;
+        margin-bottom: 20vh;
+        gap:4em 4em;
+        margin-left:0.5vw;
+     }
+     main div a div{
+        display: flex;
+        flex-direction: column;
+        width:60vw;
+        height:50vh;
+        background-size: 60vw 50vh;
+        cursor:pointer;
+        background-repeat: no-repeat; 
+        background-image: url(assets/image/cartaz.png);
+     }
+     main div a div:hover{
+        zoom:115%;
+        border-color:black;
+        border-style:ridge;
+        border-width:5px;
+       }
+       main div a div img{
+        position: fixed;
+        margin-top: 10.5vh;
+        width: 49.5vw;
+        height:21vh;
+        border-color:rgb(86, 45, 45);
+        border-style:ridge;
+        border-width:3px;
+       }
+       main div a{
+        text-decoration: none;
+       }
+       .nome{
+        margin-top: 7.5em;
+        font-size: 2.3em ;
+        margin-left:1.5em;
+        margin-right:1.5em ;
+        font-family:'Cambo';
+        text-decoration-line: none;
+        font-weight: bolder;
+        color: rgb(86, 45, 45);
+       }
+       .valor{
+        margin-top: 11.9em;
+        font-family:'Cambo';
+        font-size: 1.7em;
+        font-weight: bolder;
+        color: rgb(86, 45, 45);
+        margin-bottom: 6vh;
+        margin-right: 0.5vw;
+       }
+}
+
+
+
+
+
+
+
+/*
 @font-face {
     font-family: 'one_piece';
     src: url('fontes/onepiecefont.ttf') format('truetype');
@@ -26,7 +421,7 @@ body{
     flex-direction: column;
     background-repeat: no-repeat; 
     background-size: 100vw 100vh;
-    background-image: url(imagens/background.png);
+    background-image: url(assets/image/background/fundo_desktop.jpg);
     background-attachment: fixed;
     overflow-x:hidden;
     overflow-y:hidden;
@@ -44,6 +439,18 @@ main{
    justify-content:center;
 
 }
+main div a div{
+    width:20vw;
+    height:50vh;
+    cursor:pointer;
+}
+main div a div:hover{
+    zoom:115%;
+    border-color:black;
+    border-style:ridge;
+    border-width:5px;
+    
+   }
 main div a img{
     
     width:20vw;
@@ -86,6 +493,6 @@ main div:nth-child(3){
     display:flex;
     flex-direction:column;
     gap:8em 8em;
-
-
 }
+
+*/
