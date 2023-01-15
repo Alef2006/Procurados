@@ -204,7 +204,7 @@ main{
         display: flex;
         flex-direction: column;
         margin-top:0.5vh;
-        margin-bottom: 20vh;
+        margin-bottom: 40vh;
         gap:4em 4em;
         margin-left:0.5vw;
      }
@@ -336,7 +336,7 @@ main{
         display: flex;
         flex-direction: column;
         margin-top:0.5vh;
-        margin-bottom: 20vh;
+        margin-bottom: 40vh;
         gap:4em 4em;
         margin-left:0.5vw;
      }
