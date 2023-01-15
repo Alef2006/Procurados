@@ -247,9 +247,9 @@ main{
         color: rgb(86, 45, 45);
        }
        .valor{
-        margin-top: 11.9em;
+        margin-top: 13.5em;
         font-family:'Cambo';
-        font-size: 1.7em;
+        font-size: 1.5em;
         font-weight: bolder;
         color: rgb(86, 45, 45);
         margin-bottom: 6vh;
@@ -319,7 +319,7 @@ main{
      #coluna1{
         display: flex;
         flex-direction: column;
-        margin-top:770vh;
+        margin-top:785vh;
         margin-bottom: 0vh;
         gap:4em 8em;
         margin-left:0.5vw;
@@ -369,8 +369,8 @@ main{
         text-decoration: none;
        }
        .nome{
-        margin-top: 7.5em;
-        font-size: 2.3em ;
+        margin-top: 8.5em;
+        font-size: 2.1em ;
         margin-left:1.5em;
         margin-right:1.5em ;
         font-family:'Cambo';
@@ -379,9 +379,9 @@ main{
         color: rgb(86, 45, 45);
        }
        .valor{
-        margin-top: 11.9em;
+        margin-top: 15.7em;
         font-family:'Cambo';
-        font-size: 1.7em;
+        font-size: 1.3em;
         font-weight: bolder;
         color: rgb(86, 45, 45);
         margin-bottom: 6vh;
